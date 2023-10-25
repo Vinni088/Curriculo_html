@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" sizes="192x192" href="icons8-papel-30.png" />
-    <title> Curriculo Vinicius </title>
+    <title>Curriculo Vinicius</title>
     <style>
-        h1 {
-            text-align: center;
-            color: dimgray;
+      h1 {
+        text-align: center;
+        color: dimgray;
+      }
+      h2 {
+        text-align: center;
+        color: dimgray;
+      }
+      h3 {
+        color: steelblue;
+        border-bottom: 3px solid steelblue;
+      }
+      a {
+        text-decoration: none;
+        color: steelblue;
+      }
+      .experiencias {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        div {
+          border: 1px solid black;
         }
-        h2 {
-            text-align: center;
-            color: dimgray;
-        }
-        h3 {
-            color: steelblue;
-            border-bottom: 3px solid steelblue;
-        }
-        a {
-            text-decoration: none;
-            color: steelblue;
-        }
-        .experiencias {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-            div {
-                border: 1px solid black;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Vinicius Evangelista</h1>
     <h2>Full stack Brazilian Dev</h2>
 
     <h3>Contacts</h3>
     <ul>
-        <li>
-            Email: viniciusevangelista088@gmail.com
-        </li>
-        <li> 
-            Github: <a href="https://github.com/Vinni088"> https://github.com/Vinni088 </a> 
-        </li>
-        <li> 
-            linkedin: <a href="https://www.linkedin.com/in/vinicius-evangelista-02357620a"> https://www.linkedin.com/in/vinicius-evangelista-02357620a</a> 
-        </li>
+      <li>Phone: +55 61 9 99167530</li>
+      <li>Email: viniciusevangelista088@gmail.com</li>
+      <li>
+        Github:
+        <a href="https://github.com/Vinni088"> https://github.com/Vinni088 </a>
+      </li>
+      <li>
+        linkedin:
+        <a href="https://www.linkedin.com/in/vinicius-evangelista-02357620a">
+          https://www.linkedin.com/in/vinicius-evangelista-02357620a</a
+        >
+      </li>
+      <li>Current Timezone: BRT (UTC -3)</li>
     </ul>
 
     <h3>About me</h3>
     <p>
-        Hey! I'm Vinicius Evangelista, a brazilian developer finishing a bachelor of Physics at the University of Brasilia. I started coding
-        as a tool to solve complex physics problems and, since then, I've taken huge steps on my development career, working on several 
-        hands-on projects working from the basics of programming to frameworks and API-client communication. Currently I'm on the search
-        for opportunities to continue on this coding journey.
+      Hey! My name is Vinicius Evangelista, a brazilian developer finishing a
+      bachelor of Physics at the University of Brasilia. I started coding as a
+      tool to solve complex physics problems and, since then, I've taken huge
+      steps on my development career, working on several hands-on projects
+      working from the basics of programming to frameworks and API-client
+      communication. Currently I'm on my first experience with a dev internship
+      at Agrisafe, a Brazilian company that deals with agricultural credit.
     </p>
 
     <h3>Experience</h3>
@@ -74,62 +82,65 @@
     </p> 
     -->
     <div class="experiencias">
-        <div>
-            <strong> Front-End: </strong>
-            <ul> 
-                <li>
-                    Single page applications using vanilla javascript
-                </li>
-                <li>
-                    Single page applications using ReactJs and Axios.
-                </li>
-                <li>
-                    Complete projects using ReactJs, Axios and self-made API.
-                </li>
-            </ul>    
-        </div>
-        <div>
-            <strong> Back-End </strong>
-            <ul>
-                <li>
-                    REST APIs using NodeJs and Express for pre-existing Front-End applications.
-                </li>
-                <li>
-                    APIs with data persistence on MongoDB e PostgreSQL databases.
-                </li>
-                <li>             
-                    Design and implementation of databases using MongoDB and PostgreSQL.
-                </li>
-            </ul>
-        </div>
-        
+      <div>
+        <strong> Front-End: </strong>
+        <ul>
+          <li>Single page applications using vanilla javascript</li>
+          <li>Single page applications using ReactJs and Axios.</li>
+          <li>Complete projects using ReactJs, Axios and Express APIs.</li>
+        </ul>
+      </div>
+      <div>
+        <strong> Back-End </strong>
+        <ul>
+          <li>
+            Implemented APIs using NodeJs and Express with various
+            architectures.
+          </li>
+          <li>
+            Worked with SQL databases on Postgres and with NoSQL databases on
+            MongoDB.
+          </li>
+          <li>Design and implementation of databases.</li>
+        </ul>
+      </div>
+      <div>
+        <strong> Internship </strong>
+        <ul>
+          <li>Used python to automate data extraction for clients.</li>
+          <li>
+            Implemented AWS Lambda functions for serverless APIs endpoints.
+          </li>
+          <li>Implemented Lambda functions for ASYNC endpoints on AWS.</li>
+        </ul>
+      </div>
     </div>
 
     <h3>Languages</h3>
     <ul>
-        <li>Português <strong>(Native)</strong></li>
-        <li>Inglês <strong>(Fluent)</strong></li>
-        <li>Espanhol <strong>(Basic)</strong></li>
+      <li>Portuguese <strong>(Native)</strong></li>
+      <li>English <strong>(Fluent)</strong></li>
+      <li>Spanish <strong>(Basic)</strong></li>
     </ul>
 
     <h3>Education</h3>
     <ul>
-        <li>Driven Education: Full-stack web development <strong>(02/2023 - currently)</strong></li>
-        <li>Bachelor in Physics, Universidade de Brasília <strong>(2018 - currently)</strong></li>
+      <li>
+        Driven Education: Full-stack web development
+        <strong>(02/2023 - 12/2023)</strong>
+      </li>
+      <li>
+        Bachelor in Physics, Universidade de Brasília
+        <strong>(2018 - 12/2023)</strong> 
+      </li>
     </ul>
-    <h3> Knowledge and Skills </h3>
+    <h3>Knowledge and Skills</h3>
     <ul>
-        <li>
-            General Technologies: Git Versioning, Figma, Linux Terminal
-        </li>
-        <li>
-            Front-End: Html, CSS, Javascript, React
-        </li>
-        <li>
-            Back-End: NodeJs, Express, MongoDB, Postgres
-        </li>
-        <li>
-            Mathematics and logic</li>
-        </ul>
-</body>
+      <li>General Technologies: Git Versioning, Figma, Linux Terminal</li>
+      <li>Front-End: Html, CSS, Javascript, React</li>
+      <li>Back-End: NodeJs, Express, MongoDB, Postgres</li>
+      <li>Basic knowledge for cloud computing tools suhc as AWS</li>
+      <li>Mathematics and logic</li>
+    </ul>
+  </body>
 </html>
